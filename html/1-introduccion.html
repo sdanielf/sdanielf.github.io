@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Introducción - HTML - Daniel Francis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/custom.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name"><a href="/">Daniel Francis</a></h1>
+      <h2 class="project-tagline"><a href="/html">HTML</a></h2>
+    </section>
+
+    <section class="main-content">
+
+      <h2>1. Introducción</h2>
+
+      <h3>Conceptos básicos sobre la internet</h3>
+
+      <p>
+        La internet es una red global de computadoras que permite transmitir
+        datos y servicios. Las computadoras que ofrecen servicios se denominan
+        <b>servidores</b> y las que los utilizan son <b>clientes</b>.
+      </p>
+
+      <p>
+        En esta comunicación cliente-servidor, el cliente envía al servidor mensajes
+        llamados <b>peticiones</b>, el servidor al recibirlas las procesa y
+        por cada petición devuelve una <b>respuesta</b>.
+      </p>
+
+      <p>
+        La aplicación que se utilizan los clientes para acceder a los sitios web,
+        se llama <b>navegador web</b>, el mismo permite ingresar la dirección de
+        un servidor, realiza peticiones al mismo y las interpreta para dibujar
+        en pantalla una página web.
+      </p>
+      
+      <h3>Las URLs</h3>
+
+      <p>
+        Para realizar cualquier petición a un servidor, se necesita un texto llamado
+        URL. Este contiene:
+        <ul>
+          <li><b>Protocolo</b> (ej: http, https, ftp)</li>
+          <li><b>Dirección del servidor</b> (Nombre o número de IP)</li>
+          <li>Número de <b>puerto</b> del servidor (opcional, cuando no se especifica en HTTP es el 80)</li>
+          <li><b>Dirección interna</b> (qué página pedirle al servidor)</li>
+          <li>Usuario y contraseña (servidores protegidos)</li>
+        </ul>
+
+        <h4>Ejemplos de URLs</h4>
+        <table>
+          <tr>
+            <th>Protocolo</th>
+            <th>Dirección del servidor</th>
+            <th>Puerto</th>
+            <th>Dirección interna</th>
+          </tr>
+          <tr>
+            <td colspan="4"><code>http://google.com/</code></td>
+          </tr>
+          <tr>
+            <td>http</td>
+            <td>google</td>
+            <td>80</td>
+            <td>/</td>
+          </tr>
+          <tr>
+            <td colspan="4"><code>https://es.wikipedia.org/wiki/Uruguay</code></td>
+          </tr>
+          <tr>
+            <td>https</td>
+            <td>es.wikipedia.org</td>
+            <td>80</td>
+            <td>/wiki/Uruguay</td>
+          </tr>
+          <tr>
+            <td colspan="4"><code>ftp://ejemplo.com:20/archivo.txt</code></td>
+          </tr>
+          <tr>
+            <td>ftp</td>
+            <td>ejemplo.com</td>
+            <td>20</td>
+            <td>/archivo.txt</td>
+          </tr>
+        </table>
+      </p>
+
+      <p>
+        La forma general de un URL es: <pre><code>esquema://máquina/directorio.archivo</code></pre>
+        Adoptando más información puede llegar a quedar:
+        <pre><code>esquema://usuario:contraseña@máquina:puerto/directorio.archivo</code></pre>
+      </p>
+
+      <h3>El formato HTML</h3>
+      <p>
+        Los servidores web al recibir una petición deben devolver un archivo.
+        Cuando el cliente pide una página web se devuelve un archivo de texto
+        que contiene una descripción de la página en un lenguaje similar al
+        que utilizamos para comunicarnos.
+      </p>
+      <p>
+        HTML significa <i>Hyper Text Markup Language</i>, los archivos escritos
+        en este lenguaje tienen como extensión <i>.html</i> o <i>.htm</i>. La
+        causa de la segunda es que en los antiguos sistemas operativos los
+        archivos solo podían tener extensiones de 3 caracteres.
+      </p>
+
+      <p>
+        La W3C estandariza las reglas del lenguaje HTML de acuerdo a como evoluciona
+        la web y sus necesidades. A partir de esta especificación cada navegador web
+        utilza su propio intérprete para comprender estos archivos y representarlos
+        en pantalla.
+      </p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">
+          Para esta página se utilizó el tema <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> de
+          <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
