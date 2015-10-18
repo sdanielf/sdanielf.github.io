@@ -172,10 +172,10 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
@@ -192,7 +192,7 @@ html_static_path = ['_static']
 # Sphinx supports the following languages:
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr'
-#html_search_language = 'en'
+html_search_language = 'es'
 
 # A dictionary with options for the search language support, empty by default.
 # Now only 'ja' uses this config value
@@ -225,7 +225,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'Librosymaterialessobreinformtica.tex', 'Libros y materiales sobre informática Documentation',
+  (master_doc, 'Librosymaterialessobreinformtica.tex', 'Libros y materiales sobre informática',
    'Daniel Francis', 'manual'),
 ]
 
@@ -255,7 +255,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'librosymaterialessobreinformtica', 'Libros y materiales sobre informática Documentation',
+    (master_doc, 'librosymaterialessobreinformtica', 'Libros y materiales sobre informática',
      [author], 1)
 ]
 
@@ -269,7 +269,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'Librosymaterialessobreinformtica', 'Libros y materiales sobre informática Documentation',
+  (master_doc, 'Librosymaterialessobreinformtica', 'Libros y materiales sobre informática',
    author, 'Librosymaterialessobreinformtica', 'One line description of project.',
    'Miscellaneous'),
 ]
