@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. Introducción &mdash; Libros y materiales sobre informática — Daniel Francis</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Libros y materiales sobre informática — Daniel Francis" href="../index.html"/>
+        <link rel="up" title="Python" href="index.html"/>
+        <link rel="prev" title="Python" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Libros y materiales sobre informática
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../html/index.html">HTML</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Python</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">1. Introducción</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#codigo-de-maquina">1.1. Código de máquina</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lenguaje-ensamblador">1.2. Lenguaje ensamblador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clasificacion-general-de-los-lenguajes-de-programacion">1.3. Clasificación general de los lenguajes de programación</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#alto-o-bajo-nivel">1.3.1. Alto o bajo nivel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compilado-o-interpretado">1.3.2. Compilado o interpretado</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#instalacion-del-interprete-de-python">1.4. Instalación del intérprete de Python</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Libros y materiales sobre informática</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Python</a> &raquo;</li>
+      
+    <li>1. Introducción</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/python/1-introduccion.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduccion">
+<h1>1. Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="codigo-de-maquina">
+<h2>1.1. Código de máquina<a class="headerlink" href="#codigo-de-maquina" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El componente de la computadora encargado de ejecutar instrucciones es el
+microprocesador. Toda la información que pasa por él llega representada en
+forma eléctrica, se utiliza un valor alto de corriente y un valor bajo,
+para esto la información se guarda en <em>código binario</em> (de ceros y unos).</p>
+<p>Las primeras computadoras disponían de un enorme panel de conectores donde
+cada cable insertado representaba un uno y cada cable desconectado un cero.
+Cada computadora tenía su propio lenguaje binario, por lo que los
+programadores comenzaron a diseñar sus programas en papel en un lenguaje
+más facil de entender entre los humanos para luego poder traducir esas
+instrucciones al código de máquina.</p>
+<p>El uso del papel para escribir un programa de forma entendible para los
+humanos dio lugar a lo que hoy conocemos como <em>pseudocódigo</em>. Hasta el
+día de hoy a la hora de resolver problemas complejos se recomienda
+escribir en un papel los pasos para resolver el problema y luego traducirlos
+al lenguaje de programación que se desee.</p>
+</div>
+<div class="section" id="lenguaje-ensamblador">
+<h2>1.2. Lenguaje ensamblador<a class="headerlink" href="#lenguaje-ensamblador" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para facilitar el trabajo de los programadores se diseñó un lenguaje preciso
+con el que a través de un archivo de texto pueden escribirse instrucciones
+directas al procesador, luego un programa denominado <em>ensamblador</em> traduce este
+archivo a código de máquina y genera un programa que sí puede ser ejecutado
+por el procesador.</p>
+<p>El lenguaje ensamblador al representar instrucciones directas en el procesador
+es completamente distante del pseudocódigo que un programador puede escribir
+al buscar la solución a un problema. Es por esto que se crearon nuevos
+lenguajes que funcionan con menos problemas de compatibilidad entre equipos
+y cada vez más parecidos al pseudocódigo.</p>
+</div>
+<div class="section" id="clasificacion-general-de-los-lenguajes-de-programacion">
+<h2>1.3. Clasificación general de los lenguajes de programación<a class="headerlink" href="#clasificacion-general-de-los-lenguajes-de-programacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="alto-o-bajo-nivel">
+<h3>1.3.1. Alto o bajo nivel<a class="headerlink" href="#alto-o-bajo-nivel" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Un lenguaje de alto nivel es aquel que se acerca al lenguaje natural de los
+humanos y a los problemas que le interesa resolver a los humanos. Por
+el contrario, cuanto más bajo sea el nivel de un lenguaje, al escribir va se
+hace necesario ser preciso en instrucciones que le importan al procesador y
+a las memorias de la computadora para funcionar.</p>
+<p>Los lenguajes de bajo nivel ofrecen como ventaja un altísimo rendimiento
+mientras que los lenguajes de alto nivel se caracterizan por ser más lentos,
+pero ofrecen una mayor legibilidad, permiten organizar mejor el código
+lo cual se convierte en programas con menos errores.</p>
+<p>Luego del código de máquina y el lenguaje ensamblador, uno de los lenguajes
+de programación de más bajo nivel es C. Python por otro lado se denomina
+lenguaje de muy alto nivel, la sintaxis del lenguaje suele compararse con el
+pseudocódigo y está recomendado dentro de los lenguajes que pueden usarse
+para aprender a programar.</p>
+</div>
+<div class="section" id="compilado-o-interpretado">
+<h3>1.3.2. Compilado o interpretado<a class="headerlink" href="#compilado-o-interpretado" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Así como el ensamblador era un programa que traducía el código en este lenguaje
+al código de máquina, cada máquina tenía su propio lenguaje ensamblador.</p>
+<p>Con los lenguajes de programación modernos, se le comenzó a llamar <em>código
+fuente</em> a los archivos que el programador escribe en un lenguaje de
+programación. Al proceso de pasar <em>código fuente</em> a <em>código de máquina</em>
+se le llamó <em>compilación</em>, por lo tanto el programa que lo hace se llama
+<em>compilador</em>. El proceso de compilación no se explicará con profundidad en
+este capítulo.</p>
+<p>En los lenguajes interpretados, en lugar de traducirse el código fuente a
+código de máquina para luego distribuir el código de máquina a los usuarios,
+se necesita de un programa llamado intéprete que en cada ejecución del
+programa se encargue de leer el archivo de código fuente y enviar las
+instrucciones en tiempo real a la computadora.</p>
+<p>Python es un lenguaje interpretado, la implementación más utilizada es
+CPython, el cual es un intérprete de Python escrito en lenguaje C.
+Se puede hablar de Python para referirse a CPython, pero existen otras
+implementaciones menos utilizadas como Jython en Java.</p>
+</div>
+</div>
+<div class="section" id="instalacion-del-interprete-de-python">
+<h2>1.4. Instalación del intérprete de Python<a class="headerlink" href="#instalacion-del-interprete-de-python" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Se buscará que los ejemplos de código funcionen en Python 3.4 o versiones
+más recientes.</p>
+<ul class="simple">
+<li>En los sistemas Linux se recomienda buscar información específica para
+la distribución que se esté utilizando. Muchas veces el intérprete ya
+viene instalado en el sistema por defecto.</li>
+<li>En Windows, se puede
+<a class="reference external" href="https://www.python.org/downloads/windows/">descargar el instalador</a> .</li>
+<li>En Mac OS X:
+<a class="reference external" href="https://www.python.org/downloads/mac-osx/">página de descargas</a> .</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Python" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Daniel Francis.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
