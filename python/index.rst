@@ -1,5 +1,5 @@
-HTML
-####
+Python
+######
 
 .. toctree::
   :numbered:
